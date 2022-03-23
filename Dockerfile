@@ -26,6 +26,7 @@ ENV LIBRARY_PATH=/lib:/usr/lib
 
 # install psql client
 RUN apk --update add postgresql-client
+RUN apt-get install nodejs-legacy
 
 # install git
 RUN apk add git
