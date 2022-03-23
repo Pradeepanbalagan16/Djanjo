@@ -2,7 +2,7 @@
 FROM python:3.8-alpine
 
 # set work directory
-WORKDIR /usr/src/demo
+WORKDIR /usr/src/app
 
 # set environment varibles
 ENV PYTHONDONTWRITEBYTECODE 1
